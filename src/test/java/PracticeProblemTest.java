@@ -149,7 +149,7 @@ public class PracticeProblemTest {
    @Test
    public void q4Test2()
    {
-      String data = "Kalisz\nMr.\n99";
+      String data = "Kalisz\nMr\n99";
       System.setIn(new ByteArrayInputStream(data.getBytes()));
       
       PrintStream originalOut = System.out;
